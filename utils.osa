@@ -1,0 +1,28 @@
+
+tell application "System Events" to get the name of every process whose background only is false
+
+
+
+
+
+
+tell application "System Events" to tell application process "Google Chrome"
+    get position of window 1
+end tell
+
+
+
+tell application "System Events" to tell application process "Google Chrome"
+    get size of window 1
+end tell
+
+
+
+tell application "System Events" to tell application process "iTerm2"
+    get position of window 1
+end tell
+
+
+tell application "System Events" to tell application process "iTerm2"
+    get size of window 1
+end tell
