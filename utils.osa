@@ -22,7 +22,10 @@ tell application "System Events" to tell application process "iTerm2"
     get position of window 1
 end tell
 
-
 tell application "System Events" to tell application process "iTerm2"
+    get size of window 1
+end tell
+
+tell application "System Events" to tell application process "Terminal"
     get size of window 1
 end tell
