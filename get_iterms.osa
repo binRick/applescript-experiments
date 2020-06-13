@@ -1,0 +1,6 @@
+#!/usr/bin/env osascript
+
+
+tell application "System Events" to tell application process "iTerm2"
+    get size of window 1
+end tell
