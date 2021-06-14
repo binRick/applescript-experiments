@@ -1,0 +1,10 @@
+#!/usr/bin/env osascript
+
+
+tell application "System Events" to tell process "iTerm2"
+    tell every window
+        set position to {1599, 0}
+        set size to {1840, 1450}
+    end tell
+end tell
+

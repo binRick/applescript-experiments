@@ -1,0 +1,8 @@
+#!/usr/bin/env osascript
+
+tell application "System Events" to tell process "Chromium"
+    tell every window
+        set size to {1598, 1445}
+        set position to {0, 0}
+    end tell
+end tell

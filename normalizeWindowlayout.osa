@@ -22,20 +22,31 @@ tell application "System Events" to tell process "iTerm2"
         end tell
 end tell
 
-tell application "System Events" to tell process "Terminal"
-    tell every window
-        set size to {1598, 1396}
-        set position to {5, 23}
-    end tell
-end tell
+#tell application "System Events" to tell process "Terminal"
+#    tell every window
+#        set size to {1598, 1396}
+#        set position to {5, 23}
+#    end tell
+#end tell
 
-
-
-tell application "System Events" to tell process "Google Chrome"
+tell application "System Events" to tell process "Chromium"
     tell every window
         set size to {1593, 1417}
         set position to {5, 23}
     end tell
 end tell
+#tell application "System Events" to tell process "Google Chrome"
+#    tell every window
+#        set size to {1593, 1417}
+#3        set position to {5, 23}
+#    end tell
+#end tell
+
+#tell application "System Events" to tell process "Firefox"
+#    tell every window
+#        set size to {1593, 1417}
+#        set position to {5, 23}
+#    end tell
+#end tell
 
 
