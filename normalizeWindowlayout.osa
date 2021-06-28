@@ -46,7 +46,12 @@ end tell
 #    tell every window
 #        set size to {1593, 1417}
 #        set position to {5, 23}
+#    end tell#tell application "System Events" to tell process "Google Chrome"
+#    tell every window
+#        set size to {1593, 1417}
+#3        set position to {5, 23}
 #    end tell
+#end tell
 #end tell
 
 
