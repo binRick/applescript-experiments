@@ -1,0 +1,18 @@
+#!/usr/bin/env osascript
+on is_running(appName)
+    tell application "System Events" to (name of processes) contains appName
+end is_running
+
+
+set iTerm2Running to is_running("iTerm2")
+if not iTerm2Running then
+end if
+
+
+tell application "System Events" to tell process "iTerm2"
+    tell second window
+            set size to {1599, 1475}
+            set position to {0, 0}
+    end tell
+end tell
+
