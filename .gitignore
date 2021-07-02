@@ -1,3 +1,5 @@
 .venv/
 python3-aiohttp-websocket-worker-threads
 *.swp
+.log
+.attic
